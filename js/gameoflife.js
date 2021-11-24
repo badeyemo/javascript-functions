@@ -12,7 +12,7 @@ function contains(cell) {
 }
 
 const printCell = (cell, state) => {
-  return contains.call(state, cell); "\u25A3"; "\"
+  return contains.call(state, cell), "\u25A3", "\" 
 };
 
 const corners = (state = []) => {};
