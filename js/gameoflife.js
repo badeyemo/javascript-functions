@@ -124,16 +124,29 @@ const startPatterns = {
     }
   }
   
-  exports.seed = seed;
-  exports.same = same;
-  exports.contains = contains;
-  exports.getNeighborsOf = getNeighborsOf;
-  exports.getLivingNeighbors = getLivingNeighbors;
-  exports.willBeAlive = willBeAlive;
-  exports.corners = corners;
-  exports.calculateNext = calculateNext;
-  exports.printCell = printCell;
-  exports.printCells = printCells;
-  exports.startPatterns = startPatterns;
-  exports.iterate = iterate;
-  exports.main = main;
+  const _seed = seed;
+export { _seed as seed };
+  const _same = same;
+export { _same as same };
+  const _contains = contains;
+export { _contains as contains };
+  const _getNeighborsOf = getNeighborsOf;
+export { _getNeighborsOf as getNeighborsOf };
+  const _getLivingNeighbors = getLivingNeighbors;
+export { _getLivingNeighbors as getLivingNeighbors };
+  const _willBeAlive = willBeAlive;
+export { _willBeAlive as willBeAlive };
+  const _corners = corners;
+export { _corners as corners };
+  const _calculateNext = calculateNext;
+export { _calculateNext as calculateNext };
+  const _printCell = printCell;
+export { _printCell as printCell };
+  const _printCells = printCells;
+export { _printCells as printCells };
+  const _startPatterns = startPatterns;
+export { _startPatterns as startPatterns };
+  const _iterate = iterate;
+export { _iterate as iterate };
+  const _main = main;
+export { _main as main };
